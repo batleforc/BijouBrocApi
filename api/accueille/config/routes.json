@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/accueille",
+      "handler": "accueille.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/accueille",
+      "handler": "accueille.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/accueille",
+      "handler": "accueille.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

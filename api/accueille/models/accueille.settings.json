@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueilles",
+  "info": {
+    "name": "Accueille"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Slogan": {
+      "type": "richtext"
+    },
+    "Logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
