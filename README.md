@@ -1,3 +1,3 @@
-# Strapi application
+# BijouBrocApi
 
-A quick description of your strapi application
+L'api du site web BijouBroc baser sur le CMS Strapi
