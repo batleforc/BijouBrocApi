@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_anouncement_annonces",
+  "info": {
+    "name": "Annonce",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "Active": {
+      "type": "boolean"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "boolean"
+    },
+    "LinkContent": {
+      "type": "string"
+    }
+  }
+}
