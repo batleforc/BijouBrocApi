@@ -20,5 +20,5 @@ jobs:
         shell: bash
         env:
           dotenv: ${{secrets.DOTENV}}
-      - run: docker build -t batleforc/bijoubroc .
+      - run: docker build -t batleforc/bijoubrocProd .
       - run: docker-compose -f docker-composeProd.yml up -d

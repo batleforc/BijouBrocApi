@@ -20,4 +20,4 @@ jobs:
         shell: bash
         env:
           dotenv: ${{secrets.DOTENV}}
-      - run: docker-compose up -d
+      - run: docker-compose -f docker-composeDev.yml up -d

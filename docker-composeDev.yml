@@ -1,6 +1,6 @@
 version: '3'
 services:
-  strapi:
+  BijouBrocDev:
     image: strapi/strapi:latest
     env_file: .env
     container_name: DevBijouBrocApi

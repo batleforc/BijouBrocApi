@@ -1,6 +1,6 @@
 version: '3'
 services:
-  strapi:
+  BijouBrocProd:
     image: batleforc/bijoubroc
     env_file: .env
     container_name: ProdBijouBrocApi
