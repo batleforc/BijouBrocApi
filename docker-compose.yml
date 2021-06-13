@@ -8,3 +8,11 @@ services:
       - ./:/srv/app
     ports:
       - '1337:1337'
+    networks:
+      - bijoubroc
+      - weebo
+networks:
+  bijoubroc:
+    name: bijoubroc
+  weebo:
+    name: weebo
