@@ -7,9 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on:
-      - self-hosted
-      - default
+    runs-on: [self-hosted, dev]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
