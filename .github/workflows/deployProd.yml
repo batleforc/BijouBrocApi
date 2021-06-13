@@ -3,7 +3,7 @@ name: BijouBrocApi:Deploy
 on:
   push:
     branches:
-      - develop
+      - master
 
 jobs:
   build:
@@ -20,4 +20,5 @@ jobs:
         shell: bash
         env:
           dotenv: ${{secrets.DOTENV}}
-      - run: docker-compose up -d
+      - run: docker build -t batleforc/bijoubroc .
+      - run: docker-compose -f docker-composeProd.yml up -d

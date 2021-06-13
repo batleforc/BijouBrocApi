@@ -1,12 +1,12 @@
 version: '3'
 services:
   strapi:
-    image: strapi/strapi:latest
+    image: batleforc/bijoubroc
     env_file: .env
-    container_name: DevBijouBrocApi
+    container_name: ProdBijouBrocApi
     volumes:
       - ./:/srv/app
-    ports:
+    expose:
       - '1337:1337'
     networks:
       - bijoubroc
