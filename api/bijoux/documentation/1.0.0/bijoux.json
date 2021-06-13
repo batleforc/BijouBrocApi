@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/bijouxes": {
+    "/bijoux": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the bijoux's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bijoux document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -194,10 +194,10 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new bijoux record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bijoux document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -254,13 +254,13 @@
         }
       }
     },
-    "/bijouxes/count": {
+    "/bijoux/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of bijoux documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bijoux document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -311,13 +311,13 @@
         "parameters": []
       }
     },
-    "/bijouxes/{id}": {
+    "/bijoux/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one bijoux record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bijoux document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -376,10 +376,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single bijoux record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve bijoux document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single bijoux record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single bijoux based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {

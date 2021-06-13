@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/bijouxes",
+      "path": "/bijoux",
       "handler": "bijoux.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/bijouxes/count",
+      "path": "/bijoux/count",
       "handler": "bijoux.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/bijouxes/:id",
+      "path": "/bijoux/:id",
       "handler": "bijoux.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/bijouxes",
+      "path": "/bijoux",
       "handler": "bijoux.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/bijouxes/:id",
+      "path": "/bijoux/:id",
       "handler": "bijoux.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/bijouxes/:id",
+      "path": "/bijoux/:id",
       "handler": "bijoux.delete",
       "config": {
         "policies": []
