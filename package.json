@@ -2,7 +2,7 @@
   "name": "bijoubrocapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Api",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -23,7 +23,7 @@
     "strapi-connector-mongoose": "3.6.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Batleforc"
   },
   "strapi": {
     "uuid": "c86462fb-ae4b-4f0b-bf6c-74ee8a891fa9"
