@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bijouxes",
+  "info": {
+    "name": "Bijoux"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "DateCreation": {
+      "type": "date"
+    },
+    "PhotoDuBijoux": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
