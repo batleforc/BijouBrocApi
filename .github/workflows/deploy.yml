@@ -13,4 +13,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
+      - run: echo "$dotenv" > ./.env
+        shell: bash
+        env:
+          dotenv: ${{secrets.DOTENV}}
       - run: docker-compose up -d
