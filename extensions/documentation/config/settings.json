@@ -21,7 +21,7 @@
       "description": "Development server"
     },
     {
-      "url": "bijoubroc.weebo.Fr",
+      "url": "bijoubroc.weebo.Fr/api",
       "description": "Production server"
     }
   ],
