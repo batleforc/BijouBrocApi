@@ -1,7 +1,7 @@
 version: '3'
 services:
   BijouBrocProd:
-    image: batleforc/bijoubroc
+    image: batleforc/bijoubrocprod
     env_file: .env
     container_name: ProdBijouBrocApi
     volumes:
