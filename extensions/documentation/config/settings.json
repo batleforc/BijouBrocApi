@@ -1,0 +1,29 @@
+{
+  "info": {
+    "version":"1.0.0",
+    "title": "Cms BijouBroc",
+    "description": "Cms du site web BijouBroc",
+    "termsOfService":"",
+    "contact": {
+      "name": "Batleforc",
+      "email": "maxleriche.60@gmail.com",
+      "url": "https://maxleriche.tech"
+    },
+    "licence":{}
+  },
+  "servers": [
+    {
+      "url": "http://localhost:1337",
+      "description": "Development local"
+    },
+    {
+      "url": "bijoubroc.dev.weebo.fr",
+      "description": "Development server"
+    },
+    {
+      "url": "bijoubroc.weebo.Fr",
+      "description": "Production server"
+    }
+  ],
+  "externalDocs":{}
+}
