@@ -1,0 +1,20 @@
+version: '3'
+services:
+  strapi:
+    image: strapi/strapi
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 1337
+      DATABASE_CLIENT: mongo
+      DB_HOST: binjoubrocDB
+      DB_SRV: false
+      DB_PORT: 27017
+      DB_NAME: bijoubrocapi
+      DB_USERNAME: bijoubrocmaxadmin
+      DB_PASSWORD: eWgMA3d89
+      DB_SSL: false
+    volumes:
+      - ./:/srv/app
+    ports:
+      - '1337:1337'
