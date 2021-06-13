@@ -3,9 +3,10 @@ services:
   strapi:
     image: strapi/strapi
     env_file: .env
+    container_name: BijouBrocApi
     environment:
       HOST: 0.0.0.0
-      PORT: 1337
+      PORT: 80
       DATABASE_CLIENT: mongo
       DB_HOST: binjoubrocDB
       DB_SRV: false
