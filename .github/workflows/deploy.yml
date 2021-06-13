@@ -19,5 +19,5 @@ jobs:
       - run: echo "$dotenv" > ./.env
         shell: bash
         env:
-          dotenv: ${{secrets.DOTENV}}
+          dotenv: ${{secrets.DOTENVDEV}}
       - run: docker-compose -f docker-composeDev.yml up -d

@@ -19,6 +19,6 @@ jobs:
       - run: echo "$dotenv" > ./.env
         shell: bash
         env:
-          dotenv: ${{secrets.DOTENV}}
+          dotenv: ${{secrets.DOTENVPROD}}
       - run: docker build -t batleforc/bijoubrocprod .
       - run: docker-compose -f docker-composeProd.yml up -d

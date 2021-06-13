@@ -6,6 +6,7 @@ services:
     container_name: DevBijouBrocApi
     volumes:
       - ./:/srv/app
+      - /home/max/Docker/bijoubroc/data/dev:/srv/app/public/uploads
     ports:
       - '1337:1337'
     networks:

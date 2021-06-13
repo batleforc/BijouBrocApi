@@ -6,6 +6,7 @@ services:
     container_name: ProdBijouBrocApi
     volumes:
       - ./:/srv/app
+      - /home/max/Docker/bijoubroc/data/prod:/srv/app/public/uploads
     expose:
       - 1337
     networks:
