@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
     auth: {
       secret: env(
         "ADMIN_JWT_SECRET",
-        Boolean(process.env.ADMIN_JWT_SECRET) ||
+        String(process.env.ADMIN_JWT_SECRET) ||
           "29fa280fe66684edbf50dec1ef1a9b90"
       ),
     },
