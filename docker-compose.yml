@@ -1,7 +1,7 @@
 version: '3'
 services:
   strapi:
-    image: strapi/strapi
+    image: strapi/strapi:latest
     env_file: .env
     container_name: BijouBrocApi
     volumes:
