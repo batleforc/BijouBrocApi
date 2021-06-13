@@ -1,7 +1,6 @@
 module.exports = ({ env }) => ({
   host: env("HOST", String(process.env.HOST)),
   port: env.int("PORT", Number(process.env.PORT)),
-  url: "/api",
   admin: {
     auth: {
       secret: env(
