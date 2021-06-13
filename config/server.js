@@ -1,7 +1,10 @@
 module.exports = ({ env }) => ({
   host: env("HOST", String(process.env.HOST)),
   port: env.int("PORT", Number(process.env.PORT)),
-  url: "/api",
+  url:
+    process.env.NODE_ENV === "development"
+      ? undefined
+      : "https://bijoubroc.weebo.fr/api",
   admin: {
     auth: {
       secret: env(
