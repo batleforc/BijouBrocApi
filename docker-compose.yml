@@ -4,7 +4,6 @@ services:
     image: strapi/strapi
     env_file: .env
     container_name: BijouBrocApi
-    environment:
     volumes:
       - ./:/srv/app
     ports:
