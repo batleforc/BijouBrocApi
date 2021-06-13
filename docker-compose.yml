@@ -7,14 +7,14 @@ services:
     environment:
       HOST: 0.0.0.0
       PORT: 80
-      DATABASE_CLIENT: mongo
-      DB_HOST: binjoubrocDB
-      DB_SRV: false
-      DB_PORT: 27017
-      DB_NAME: bijoubrocapi
-      DB_USERNAME: bijoubrocmaxadmin
-      DB_PASSWORD: eWgMA3d89
-      DB_SSL: false
+      DATABASE_CLIENT: "mongo"
+      DB_HOST: "bijoubrocDB"
+      DB_SRV: "false"
+      DB_PORT: "27017"
+      DB_NAME: "bijoubrocapi"
+      DB_USERNAME: "bijoubrocmaxadmin"
+      DB_PASSWORD: "eWgMA3d89"
+      DB_SSL: "false"
     volumes:
       - ./:/srv/app
     ports:
