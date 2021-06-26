@@ -1,4 +1,4 @@
-name: BijouBrocApi:Deploy
+name: BijouBrocApi:Dev:Deploy
 
 on:
   push:
