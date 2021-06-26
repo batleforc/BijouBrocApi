@@ -20,5 +20,7 @@ jobs:
         shell: bash
         env:
           dotenv: ${{secrets.DOTENVPROD}}
+      - run: echo "SERVER=bijoubroc.weebo.fr" >> ./.env
+        shell: bash
       - run: docker build -t batleforc/bijoubrocprod .
       - run: docker-compose -f docker-composeProd.yml up -d
