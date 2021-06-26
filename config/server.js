@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   url:
     process.env.NODE_ENV === "development"
       ? undefined
-      : `https://${process.env.SERVER}/api`,
+      : `https://${String(process.env.SERVER)}/api`,
   admin: {
     auth: {
       secret: env(
