@@ -1,7 +1,7 @@
 version: '3'
 services:
   BijouBrocDev:
-    image: strapi/strapi:latest
+    image: batleforc/bijoubrocprod
     env_file: .env
     restart: always
     container_name: DevBijouBrocApi
