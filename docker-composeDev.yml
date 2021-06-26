@@ -4,8 +4,6 @@ services:
     image: batleforc/bijoubrocprod
     env_file: .env
     restart: always
-    environment:
-      - SERVER=bijoubroc.dev.weebo.fr
     container_name: DevBijouBrocApi
     volumes:
       - ./:/srv/app
