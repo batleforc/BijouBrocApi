@@ -5,6 +5,7 @@
   "description": "Api",
   "scripts": {
     "develop": "strapi develop",
+    "developAdmin": "strapi develop --watch-admin",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
